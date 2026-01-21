@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Mã tự tạo + vòng tròn đếm ngược</title>
+
+<style>
+  body {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#2ecc71 360deg, #eee 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .time {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  #code {
+    font-size: 32px;
+    font-weight: bold;
+    color: #e74c3c;  }
+</style>
+</head>
+<body>
+
+<h2>Mã được tạo tự động</h2>
+
+<div class="circle" id="circle">
+  <div class="time" id="time">60</div>
+</div>
+
+<div>Mã hiện tại:</div>
+<div id="code">------</div>
