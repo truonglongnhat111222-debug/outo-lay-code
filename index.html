@@ -2,21 +2,23 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Vòng tròn đếm ngược</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mã đếm ngược</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
   <div class="circle">
-    <svg width="220" height="220">
+    <svg viewBox="0 0 220 220">
       <circle cx="110" cy="110" r="100" class="bg"></circle>
       <circle cx="110" cy="110" r="100" class="progress"></circle>
     </svg>
     <div class="time" id="time">60</div>
   </div>
 
-  <div class="code" id="code">ABC123</div>
+  <div class="label">Mã hiện tại</div>
+  <div class="code" id="code">------</div>
 </div>
 
 <script src="script.js"></script>
